@@ -1,5 +1,5 @@
 'use client'
-import { decrement, increment } from "@/state/store";
+import { decrement, increment } from "@/store/store";
 import { useDispatch, useSelector } from "react-redux";
 
 export default function Counter() {
